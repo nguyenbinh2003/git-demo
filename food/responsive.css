@@ -1,0 +1,12 @@
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    section {
+        padding-top: 30px;
+        width: 70%;
+        display: grid; 
+        /* chia lam 3 cot, moi cot 20% */
+        grid-template-columns: repeat(3, 1fr);
+        /* tao 3 rong, moi rong 200px */
+        grid-auto-rows: 1fr;
+        /* grid-template-rows: repeat(auto, 1fr); */
+        gap: 20px 20px;}
+}
